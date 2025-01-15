@@ -1,4 +1,4 @@
-## Instalation Step
+## Installation Step
 **1. Clone Repository**
    ```
    git clone https://github.com/raadhiit/daily-task-management.git
