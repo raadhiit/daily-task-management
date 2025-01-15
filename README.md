@@ -1,8 +1,29 @@
 ## Instalation Step
 **1. Clone Repository**
    ```
-   git clone 
+   git clone https://github.com/raadhiit/daily-task-management.git
+   cd your directory
    ```
+**2. Install Composer**
+```
+composer install
+```
+**3. Install NPM**
+```
+npm install
+```
+**4. Generate App Key**
+```
+php artisan key:generate
+```
+**5. Migrate Database**
+```
+php artisan migrate
+```
+**6. Run Your App**
+```
+php artisan serve
+```
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
