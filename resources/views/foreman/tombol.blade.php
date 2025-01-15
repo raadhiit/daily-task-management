@@ -1,0 +1,1 @@
+<a href='#' data-id="{{ $validasi->id }}" class="btn btn-primary btn-sm validasiProject">VALIDASI</a>

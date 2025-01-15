@@ -1,0 +1,1 @@
+<?php /**PATH C:\laragon\www\projek\resources\views\guest\index.blade.php ENDPATH**/ ?>

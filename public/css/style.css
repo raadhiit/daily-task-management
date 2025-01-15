@@ -1,0 +1,221 @@
+#gambar_login {
+    background-size: cover;
+    width: 480px;
+    height: 450px;
+}
+
+#body_login {
+    background-color: #09507E;  
+}
+
+.bg-body-reg {
+    background-color: #09507E;
+}
+
+.card-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+/* gambar fti */
+#gambarFTI{
+  width: 250px;
+  height: auto;
+}
+
+
+
+@media (max-width: 767px) {
+  /* Gaya untuk tombol hamburger di tampilan mobile */
+  .navbar-toggler-icon {
+      background-color: #000; /* Ganti dengan warna yang Anda inginkan */
+  }
+
+  /* Gaya untuk menu dropdown di tampilan mobile */
+  .dropdown-menu {
+      min-width: auto; /* Atur lebar minimum menu dropdown */
+  }
+
+  /* Gaya untuk teks selamat datang dan jam di tampilan mobile */
+  .tes {
+      margin: 0; /* Hapus margin di tampilan mobile */
+      text-align: center; /* Pusatkan teks di tampilan mobile */
+      margin-bottom: 10px; /* Atur margin bawah untuk meletakkan teks dengan benar */
+  }
+}
+
+  /* span{
+    font-size: 22px
+  } */
+
+  /* i{
+    font-size: 22px;
+    margin-right: 8px;
+  } */
+
+  #spanFooter{
+    font-size: 15px;
+  }
+
+  #linkFTI{
+    font-size: 15px
+  }
+
+  #table-jobList {
+    font-size: small;
+  }
+
+  #table-jobList_paginate .paginate_button {
+    margin-top: 5px;
+    padding: 5px 10px; /* Sesuaikan ukuran sesuai kebutuhan */
+    font-size: 15px; /* Sesuaikan ukuran font sesuai kebutuhan */
+  }
+
+  #table-index_paginate .paginate_button {
+    margin-top: 5px;
+    padding: 5px 10px; /* Sesuaikan ukuran sesuai kebutuhan */
+    font-size: 15px; /* Sesuaikan ukuran font sesuai kebutuhan */
+  }
+
+  #table-validasi_paginate .paginate_button {
+    margin-top: 5px;
+    padding: 5px 10px; /* Sesuaikan ukuran sesuai kebutuhan */
+    font-size: 12px; /* Sesuaikan ukuran font sesuai kebutuhan */
+  }
+
+  #table-validated_paginate .paginate_button {
+    margin-top: 5px;
+    padding: 5px 10px; /* Sesuaikan ukuran sesuai kebutuhan */
+    font-size: 12px; /* Sesuaikan ukuran font sesuai kebutuhan */
+  }
+
+  #table-user_paginate .paginate_button {
+    margin-top: 5px;
+    padding: 5px 10px; /* Sesuaikan ukuran sesuai kebutuhan */
+    font-size: 12px; /* Sesuaikan ukuran font sesuai kebutuhan */
+  }
+
+  /* modal setting */
+
+  .modal-box{ font-family: 'Poppins', sans-serif; }
+
+  .modal-backdrop.in{
+      opacity: 0.7;
+      background-color: #000;
+  }
+  .modal-box .modal-dialog{
+      width: 350px;
+      margin: 70px auto 0;
+  }
+  .modal.fade .modal-dialog{ transform: scale(0); }
+  .modal.in .modal-dialog{ transform: scale(1); }
+  .modal-box .modal-dialog .modal-content{
+      background: #fff;
+      text-align: center;
+      border-radius: 30px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+  .modal-box .modal-dialog .modal-content .modal-body{ padding: 35px 20px 15px !important; }
+  .modal-box .modal-dialog .modal-content .modal-body .title{
+      color: #707070;
+      font-size: 30px;
+      line-height: 30px;
+      font-weight: 600;
+      text-transform: capitalize;
+      margin: 0 0 25px;
+  }
+  .modal-box .modal-dialog .modal-content .modal-body .modal-icon{
+      color: red;
+      font-size: 100px;
+      line-height: 100px;
+      margin: 0 0 10px;
+  }
+  .modal-box .modal-dialog .modal-content .modal-body .description{
+      color: black;
+      font-size: 22px;
+      font-weight: 500;
+      margin: 0 10px 20px;
+  }
+
+  .modal-box .modal-dialog .modal-content .modal-body .btn:focus { outline: none; }
+  @media only screen and (max-width: 479px){
+      .modal-dialog{ width: 95% !important; }
+  }
+
+  /* end modal setting */
+
+
+/* Tambahkan kode CSS berikut pada file stylesheet Anda */
+.sidebar {
+  width: 200px; /* Sesuaikan lebar awal sesuai kebutuhan */
+  transition: width 0.3s ease-in-out;
+}
+
+.sidebar.collapsed {
+  width: 80px; /* Sesuaikan lebar sesuai kebutuhan */
+}
+
+.sidebar-text{
+  display: inline-block;
+  width: 100%; /* Teks akan mengambil lebar maksimal dari parent */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#sidebarToggle {
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.sidebar.collapsed #sidebarToggle {
+  margin-left: calc((80px - 85px) / 2); /* Sesuaikan dengan lebar di-collapse */
+}
+
+.sidebar.collapsed li.nav-item {
+  text-align: center;
+}
+
+.sidebar.collapsed li.nav-item.collapsed span.sidebar-text {
+  display: none;
+}
+
+.sidebar.collapsed li.nav-item .fa {
+  margin-right: 0;
+}
+
+.sidebar.collapsed li.nav-item .fas {
+  font-size: 20px; /* Sesuaikan ukuran font sesuai kebutuhan */
+}
+
+.sidebar.collapsed li.nav-item .sidebar-text {
+  display: none;
+}
+
+.sidebar.collapsed li.nav-item.collapsed .sidebar-text {
+  display: block;
+}
+
+/* Efek Hover */
+.nav-item:hover {
+  background-color: #e9ecef;
+  color: #000;
+}
+
+/* Efek Hover pada Tombol Logout */
+.nav-item#logoutForm:hover {
+  background-color: rgb(60, 60, 60); /* Ganti warna latar belakang hover sesuai kebutuhan */
+}
+
+/* Efek Aktif (Active) */
+.nav-item.active {
+  background-color: #e9ecef; /* Ganti warna latar belakang aktif sesuai kebutuhan */
+  color: black;
+}
+
+/* Efek Hover pada Tombol Logout saat Aktif */
+.nav-item#logoutForm.active:hover {
+  background-color: #e9ecef; /* Ganti warna latar belakang aktif sesuai kebutuhan */
+}
